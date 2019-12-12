@@ -29,6 +29,7 @@ namespace Api.Controllers
         }
         // GET: api/Users
         [HttpGet]
+        ///
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
