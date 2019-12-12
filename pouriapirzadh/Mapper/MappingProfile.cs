@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Api.Mapper
 {
     public class MappingProfile:Profile
-    {
+    {//test
         public MappingProfile()
         {
             CreateMap<IdentityUser, SigninDto>()
